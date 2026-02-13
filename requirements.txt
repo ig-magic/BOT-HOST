@@ -1,26 +1,14 @@
-
 requests==2.31.0
-python-dotenv==1.0.0           # For environment variables management
-psutil==5.9.6                  # For system monitoring and process management
-schedule==1.2.0                # For scheduling tasks
-python-telegram-bot==20.7      # Alternative/additional Telegram bot library
-aiohttp==3.9.1                 # For async HTTP requests
-flask==3.0.0                   # For webhook support
-gunicorn==21.2.0               # WSGI HTTP Server for production
-redis==5.0.1                   # For caching and session management
-pymongo==4.6.0                 # For MongoDB database support
-sqlalchemy==2.0.23             # For SQL database support
-cryptography==41.0.7           # For encryption/decryption
-pillow==10.1.0                 # For image processing
-pandas==2.1.4                  # For data manipulation
-numpy==1.26.2                  # For numerical operations
-python-dateutil==2.8.2         # For date/time handling
-pytz==2023.3                   # For timezone support
-colorama==0.4.6                # For colored terminal output
-tqdm==4.66.1                   # For progress bars
-loguru==0.7.2                  # For better logging
-pyyaml==6.0.1                  # For YAML configuration files
-watchdog==3.0.0                # For monitoring file changes
-apscheduler==3.10.4            # For advanced task scheduling
-filelock==3.13.1               # For file locking mechanism
-validators==0.22.0             # For validating URLs, emails, etc.
+python-dotenv==1.0.0
+psutil==5.9.6
+python-telegram-bot==20.7
+aiohttp==3.9.1
+flask==3.0.0
+gunicorn==21.2.0
+redis==5.0.1
+pymongo==4.6.0
+loguru==0.7.2
+pyyaml==6.0.1
+apscheduler==3.10.4
+filelock==3.13.1
+validators==0.22.0
