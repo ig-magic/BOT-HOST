@@ -48,7 +48,7 @@ TOKEN = os.environ.get("BOT_TOKEN")
 OWNER_ID = int(os.environ.get("OWNER_ID"))
 ADMIN_ID = int(os.environ.get("ADMIN_ID"))
 YOUR_USERNAME = os.environ.get("YOUR_USERNAME")
-UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL") Replace with your update channel link
+UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL") #Replace with your update channel link
 
 # Folder setup - using absolute paths
 BASE_DIR = os.path.abspath(os.path.dirname(__file__)) # Get script's directory
